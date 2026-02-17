@@ -1,0 +1,9 @@
+## Week 3 – Dataset, Methodology, and Initial LLM Baseline
+
+### Dataset and taxonomy
+
+For Week 3, we worked with a 100‑POI sample from the 2026‑01‑21 Overture Places release over a San Francisco–area bounding box. The sample was created from `places.geojson` using `prepare_poi_subset.py` and includes the fields `id`, `primary_name`, `overture_primary_category`, `top_level_category`, and `confidence`. We also derived a top‑level taxonomy of 22 Overture categories (for example, attractions_and_activities, retail, eat_and_drink, health_and_medical) and saved it in `top_level_categories.csv`. This subset and taxonomy will be the main testbed for both baseline and LLM experiments.
+
+### Initial LLM baseline
+
+As a first LLM baseline, we restricted the task to predicting only the Overture top‑level category for each POI in the 100‑POI sample. The model input was the `primary_name` field, and the output was constrained to one of the 22 top‑level categories, which were listed explicitly in the prompt. For each POI, the script `run_llm_baseline.py` asked the model to return a single `top_level_category` value in JSON format and then compared this prediction against the existing label in `poi_subset.csv`. Across the 100 sampled POIs, the model produced valid predictions for all rows and achieved 0.64 exact‑match accuracy at the top‑level category. The confusion matrix shows that the model is most accurate on education, financial_service, health_and_medical, and attractions_and_activities, while misclassifications tend to occur between semantically similar business‑oriented categories such as professional_services, retail, home_service, and related classes. These baseline results provide a reasonable starting point for Week‑4 analysis and for designing richer LLM prompts that use additional POI attributes.
