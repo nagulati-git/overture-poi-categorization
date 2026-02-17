@@ -13,26 +13,26 @@ MODEL_NAME = "gpt-4.1-mini"
 
 TOP_LEVEL_CATEGORIES = [
     "accommodation",
-    "activelife",
-    "artsandentertainment",
-    "attractionsandactivities",
+    "active_life",
+    "arts_and_entertainment",
+    "attractions_and_activities",
     "automotive",
-    "beautyandspa",
-    "businesstobusiness",
-    "eatanddrink",
+    "beauty_and_spa",
+    "business_to_business",
+    "eat_and_drink",
     "education",
-    "financialservice",
-    "healthandmedical",
-    "homeservice",
-    "massmedia",
+    "financial_service",
+    "health_and_medical",
+    "home_service",
+    "mass_media",
     "pets",
-    "privateestablishmentsandcorporates",
-    "professionalservices",
-    "publicserviceandgovernment",
-    "realestate",
-    "religiousorganization",
+    "private_establishments_and_corporates",
+    "professional_services",
+    "public_service_and_government",
+    "real_estate",
+    "religious_organization",
     "retail",
-    "structureandgeography",
+    "structure_and_geography",
     "travel",
 ]
 
@@ -47,7 +47,7 @@ def call_llm(prompt: str) -> str:
         model=MODEL_NAME,
         messages=[{"role": "user", "content": prompt}],
         temperature=0.0,
-        # comment this out if your SDK errors on response_format:
+        # Uncomment if your SDK supports this and you want strict JSON:
         # response_format={"type": "json_object"},
     )
     return resp.choices[0].message.content
@@ -57,7 +57,7 @@ def call_llm(prompt: str) -> str:
 # PROMPT
 # -----------------------
 
-def build_prompt(primaryname: str) -> str:
+def build_prompt(primary_name: str) -> str:
     cats = "\n".join(f"- {c}" for c in TOP_LEVEL_CATEGORIES)
     return f"""
 You are classifying Points of Interest (POIs) into top-level Overture Places categories.
@@ -67,12 +67,12 @@ Possible top-level categories:
 
 Given the POI name:
 
-\"{primaryname}\"
+\"{primary_name}\"
 
 Choose exactly ONE category from the list above.
 Return your answer strictly as JSON in this format:
 
-{{"toplevelcategory": "<one_of_the_categories_above>"}}
+{{"top_level_category": "<one_of_the_categories_above>"}}
 """
 
 
@@ -83,10 +83,11 @@ Return your answer strictly as JSON in this format:
 def parse_response(text: str) -> str:
     text = text.strip()
 
+    # Try JSON first
     try:
         data = json.loads(text)
-        if isinstance(data, dict) and "toplevelcategory" in data:
-            pred = str(data["toplevelcategory"]).strip()
+        if isinstance(data, dict) and "top_level_category" in data:
+            pred = str(data["top_level_category"]).strip()
             if pred in TOP_LEVEL_CATEGORIES:
                 return pred
     except json.JSONDecodeError:
@@ -108,8 +109,8 @@ def parse_response(text: str) -> str:
 def run(args):
     df = pd.read_csv(args.input_csv)
 
-    if "primaryname" not in df.columns or "toplevelcategory" not in df.columns:
-        raise SystemExit("poi_subset.csv must have columns 'primaryname' and 'toplevelcategory'.")
+    if "primary_name" not in df.columns or "top_level_category" not in df.columns:
+        raise SystemExit("poi_subset.csv must have columns 'primary_name' and 'top_level_category'.")
 
     # Random sample instead of head
     if args.n > 0:
@@ -119,7 +120,7 @@ def run(args):
     errors = 0
 
     for idx, row in df.iterrows():
-        prompt = build_prompt(str(row["primaryname"]))
+        prompt = build_prompt(str(row["primary_name"]))
 
         try:
             resp = call_llm(prompt)
@@ -135,19 +136,19 @@ def run(args):
         if args.sleep > 0:
             time.sleep(args.sleep)
 
-    df["llm_toplevelcategory"] = preds
+    df["llm_top_level_category"] = preds
 
     # -----------------------
     # METRICS
     # -----------------------
 
-    mask_valid = df["llm_toplevelcategory"] != ""
+    mask_valid = df["llm_top_level_category"] != ""
 
-    accuracy_all = (df["toplevelcategory"] == df["llm_toplevelcategory"]).mean()
+    accuracy_all = (df["top_level_category"] == df["llm_top_level_category"]).mean()
 
     accuracy_valid = (
-        df.loc[mask_valid, "toplevelcategory"]
-        == df.loc[mask_valid, "llm_toplevelcategory"]
+        df.loc[mask_valid, "top_level_category"]
+        == df.loc[mask_valid, "llm_top_level_category"]
     ).mean() if mask_valid.sum() else 0.0
 
     print("\n--- RESULTS ---")
@@ -167,8 +168,8 @@ def run(args):
     print(f"Wrote predictions to {args.out_csv}")
 
     confusion = pd.crosstab(
-        df["toplevelcategory"],
-        df["llm_toplevelcategory"]
+        df["top_level_category"],
+        df["llm_top_level_category"]
     )
     confusion.to_csv(args.out_confusion)
     print(f"Wrote confusion matrix to {args.out_confusion}")
@@ -192,7 +193,7 @@ def parse_args():
     )
     p.add_argument(
         "--out-confusion",
-        default="data/week3/llm_toplevel_confusion.csv",
+        default="data/week3/llm_top_level_confusion.csv",
         help="Where to write confusion matrix as CSV.",
     )
     p.add_argument(
