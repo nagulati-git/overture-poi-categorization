@@ -50,10 +50,15 @@ def main():
 
         -- Optional: may not exist in some releases; remove if DuckDB errors.
         confidence,
+        basic_category,
+        operating_status,
 
         -- Often nested; convert to JSON text so export works.
+        to_json(names)      AS names_json,
         to_json(sources)    AS sources_json,
         to_json(categories) AS categories_json,
+        to_json(addresses)  AS addresses_json,
+        to_json(brand)      AS brand_json,
 
         geometry
       FROM read_parquet('{s3_path}', filename=true, hive_partitioning=1)
@@ -96,8 +101,13 @@ def main():
     cols = [c for c in [
         "primary_name",
         "confidence",
+        "basic_category",
+        "operating_status",
+        "names_json",
         "sources_json",
         "categories_json",
+        "addresses_json",
+        "brand_json",
         "id",
         "lat",
         "lon"

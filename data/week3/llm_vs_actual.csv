@@ -1,0 +1,101 @@
+id,primary_name,overture_primary_category,top_level_category,llm_top_level_category
+b5b2c173-4ad6-40ba-8ee0-0feb68d108ae,The Walt Disney Family Museum,museum,attractions_and_activities,arts_and_entertainment
+357b7157-0b59-41df-8cec-12e70de7aeed,MaMo,restaurant,eat_and_drink,eat_and_drink
+cfbd862e-a558-42fa-b93d-fbae014228a2,Golden Gate National Park,campground,accommodation,attractions_and_activities
+caa2ce48-568b-417e-90dc-8c8e87ccb8e5,Lover's Lane Trail Presidio,park,attractions_and_activities,attractions_and_activities
+118e89b4-cf25-4e4a-8014-d0dac99fa36e,Golden Gate Bridge Vista Point South,landmark_and_historical_building,attractions_and_activities,attractions_and_activities
+ea5fc972-9859-4ba5-8728-d42ef6932aa0,Battery Crosby,landmark_and_historical_building,attractions_and_activities,attractions_and_activities
+8b1322a8-65f2-4818-b748-1983057e52e7,Presidio Beach,park,attractions_and_activities,attractions_and_activities
+dc2db241-7d73-4c2a-a6e0-6503580a044a,Cow Hollow School,preschool,education,education
+446c20d1-f487-4043-9583-f727a752d50e,Kirby Cove Campground,campground,accommodation,attractions_and_activities
+f928f380-c391-4379-9f1c-ed3421e88b94,United States Postal Service,shipping_center,professional_services,public_service_and_government
+e5043d7d-f519-4548-a6b4-526280f81cde,Sailing San Francisco,boat_rental_and_training,attractions_and_activities,active_life
+cbff135c-3703-4eee-828b-834d3da35d95,Doorman Property Management,real_estate_agent,real_estate,real_estate
+8ab906fb-6ea0-4c63-9f46-e6409053caa8,Pet Food Express,pet_store,retail,pets
+dd223863-5a0d-4188-9055-9cdecb33bcd0,Café - The Walt Disney Family Museum,cafe,eat_and_drink,eat_and_drink
+4484f981-9ff2-4bd9-be69-af2b7196c706,State Farm Insurance,insurance_agency,financial_service,financial_service
+69090c6a-e6fd-4324-8b96-9df67a5b7e30,Bright Horizons at One Letterman,preschool,education,education
+d95a8648-1e5a-4de9-8434-5c56e9fb2ea9,Bridge Cafe,coffee_shop,eat_and_drink,eat_and_drink
+55135b2b-699e-42ae-8397-da8c32594b5d,Edge of the World Tours,tours,travel,attractions_and_activities
+f9bf748d-c374-4ca0-a1fe-1be4ef95bf59,"Laura Lanzone, Realtor",real_estate_agent,real_estate,real_estate
+29064b59-c6be-49a4-9fab-7ad1396c8b0a,SF Camerawork,art_gallery,attractions_and_activities,arts_and_entertainment
+00eddac2-0e89-410d-ad2d-bd66d0b1391f,Batteries to Bluffs Trail,park,attractions_and_activities,attractions_and_activities
+15e7959f-cbd4-43ca-b73e-e7148f219d74,Coghlan Beach,beach,attractions_and_activities,attractions_and_activities
+3e60f335-7830-4638-8a2e-09d6e9ca42c3,Kim Barnes - McGuire Real Estate,real_estate_agent,real_estate,real_estate
+8d3e5fc5-f358-4745-8d6c-11097a73fa57,de'Arti Salon,beauty_salon,beauty_and_spa,beauty_and_spa
+6d453a7d-89c4-4455-8a4c-2be6ce97f620,Safeway,grocery_store,retail,retail
+7ff7f5da-b59e-4dde-9694-f63b85ed398c,Redbox,clothing_rental,retail,retail
+1a74e11f-b3c0-4b2d-b227-7044ac80dca4,Kumon,tutoring_center,education,education
+108dd5d1-f435-433b-b5c7-79135708c3fd,Launch Incentives,event_planning,professional_services,business_to_business
+9518e746-2625-44e5-838c-7eab9600583e,Nest - Integrative Health & Fertility,medical_center,health_and_medical,health_and_medical
+460118f5-47d2-46a2-8b5c-f20811087fbe,Crissy Field Center,youth_organizations,public_service_and_government,education
+328a6e41-6997-43c3-814c-fbe26792deea,SF Fire Dept Presidio,fire_protection_service,home_service,public_service_and_government
+255cc44f-ead8-4d75-a22b-599403603c5e,Bonita Cove Bunker,landmark_and_historical_building,attractions_and_activities,attractions_and_activities
+f6b1302f-272e-4a71-b86d-bf1c39fa14ec,Chapel Of Our Lady - Presidio Of San Francisco,church_cathedral,religious_organization,religious_organization
+6b772140-eea8-4b2d-80c0-1d1b7b2cf8a2,The City Waves,dance_school,active_life,education
+374f83c1-bed5-4ee9-bf81-d747ee8c30bc,Vero Kherian Photography,event_photography,professional_services,professional_services
+ef7c9d24-14ff-418b-8624-a971351328b8,North Point Nail Spa,cosmetic_and_beauty_supplies,retail,beauty_and_spa
+68086bed-d26d-40f3-b1ad-3b5d8a68a56e,Silver Cloud Restaurant & Karaoke Bar,restaurant,eat_and_drink,eat_and_drink
+e36c5a90-5016-4b4a-9e34-856e079b10af,Bay Trail,attractions_and_activities,attractions_and_activities,attractions_and_activities
+98bd0739-e38a-42e4-899d-e93e2e710462,Chrissy Fields Park,park,attractions_and_activities,attractions_and_activities
+c7ba1d0d-e58e-427a-8d21-ec0e7b72479c,Barbara J. Callan - McGuire Real Estate,real_estate_agent,real_estate,real_estate
+8d32661d-fcce-4ebf-a73b-f1f4f4628e93,Point Diablo Light,lighthouse,attractions_and_activities,attractions_and_activities
+700e3def-47ff-41e2-9905-f3297f6a6809,Battery Golden Gate Lookout,landmark_and_historical_building,attractions_and_activities,attractions_and_activities
+0a9b6459-c256-42be-8c1c-a6ae5562f500,Presidio Chapel,event_planning,professional_services,religious_organization
+85aa57ba-645c-4ec8-8b56-2509bb4289aa,CCSF Fort Mason,college_university,education,education
+d197e474-2f03-47ed-9963-da34dba0d034,Golden gate,park,attractions_and_activities,attractions_and_activities
+9c5f698b-25a4-46ce-b334-6b75a0539f70,Healing Yoga Foundation,yoga_studio,active_life,active_life
+d5b7c901-053e-4ccb-a230-5893ff30d6dc,Industrial Light & Magic,movie_television_studio,mass_media,mass_media
+b46a2d75-331d-4f05-811e-1baa6879ac65,Pawz Spa Grooming,pet_groomer,pets,pets
+01f53006-43d4-420d-85da-fdca7a1e789f,Good Weather Skin,beauty_and_spa,beauty_and_spa,beauty_and_spa
+2ddec65e-0643-4788-b3af-8971e534ac94,Wiki Education,education,education,education
+1551c78d-a407-4e9c-b25f-f00714763cb2,Presidio of San Francisco,national_park,attractions_and_activities,attractions_and_activities
+2fa4f4a4-29a4-4d98-8b5b-e937f44fb653,Puertas al Espaol Spanish Inmersion,education,education,education
+68ab1407-f5af-4554-8e1f-f6522f5262f9,Hopper's Hands,attractions_and_activities,attractions_and_activities,arts_and_entertainment
+eb74b7a3-8115-45b3-903e-c27fbcef0acb,Saucony,shoe_store,retail,retail
+5e56e52f-2f6e-44cf-8413-e30efd03e090,The Presidio,landmark_and_historical_building,attractions_and_activities,attractions_and_activities
+508d8e8e-7573-4de0-ba4f-f89195bba3f3,Cathy Shine Photography,professional_services,professional_services,professional_services
+c2171125-89ec-4c8a-b353-68a1ea8c283e,"Marina Cleaners, Inc.",laundry_services,professional_services,home_service
+a5a62605-eaad-47d6-9118-7d74a87a7498,Bay Area Ridge Trail,hiking_trail,attractions_and_activities,active_life
+eab53cc6-03e6-4480-af29-65746097aa6b,Tusker Corp,property_management,real_estate,real_estate
+9f7e7185-0f0c-49b6-8d88-aea2d9592476,Quartermaster Reach,park,attractions_and_activities,attractions_and_activities
+4130fe63-7aeb-4c3d-a602-57013398b98d,ZAP Zoetrope Aubry Productions,event_photography,professional_services,professional_services
+08aa498d-d6b4-46b3-ae0d-0bffaac2b49a,Battery Spencer,monument,attractions_and_activities,attractions_and_activities
+d9de0aa2-5fee-4ff7-83c5-c1478a3562b3,Presidio Headquarters,park,attractions_and_activities,attractions_and_activities
+319eb407-92f1-46ab-8e89-b3e026d3e4de,Curry Up Now,food_truck,retail,eat_and_drink
+5f42f29e-8635-42c7-96bc-7aa37c11a7ee,Fort Scott Organic Community Garden,park,attractions_and_activities,attractions_and_activities
+623dc664-7565-4884-b6fd-6be1db255ec3,Battery Boutelle,landmark_and_historical_building,attractions_and_activities,attractions_and_activities
+7aa264d3-4d60-4dca-a8c9-5bebb7415c0d,Affiliate Supplements,vitamins_and_supplements,retail,retail
+8c29a505-8a6b-4cbe-a425-544d54fede4c,House of Air Trampoline Park and Café,fair,arts_and_entertainment,attractions_and_activities
+5380273d-9c56-4eb9-bbea-e92dea8a6809,Fort Point,park,attractions_and_activities,attractions_and_activities
+43edf505-4d69-4372-9904-80f742d9c402,Presidio of San Francisco,national_park,attractions_and_activities,attractions_and_activities
+e01a1e0e-909f-4cb0-9a7d-44578866aa6b,Frisco Vapor,electronics,retail,retail
+f79a887b-3b53-4aec-a0c6-0ebec5b6af43,Presidio Parade Grounds,active_life,active_life,attractions_and_activities
+d5a332a1-6381-4089-83a6-ad1692aaf35a,Presidio,park,attractions_and_activities,attractions_and_activities
+31016fa5-e973-494c-970a-464e8bc3568f,San Francisco Fashion,public_relations,professional_services,professional_services
+6fbeace3-e01d-47e5-8bc8-7bd55adbad42,Jolly Lights | Holiday Lighting Experts,lighting_fixtures_and_equipment,home_service,home_service
+8ced8a09-1a65-4213-bda7-9b4d8a115940,Hawk Hill,national_park,attractions_and_activities,attractions_and_activities
+eabb70d6-ac69-474a-9bbd-592166136718,Marina Lighthouse,lighthouse,attractions_and_activities,attractions_and_activities
+45494807-7a45-4cc4-9cab-6e97ae10e9fc,Little Epiphany Sound Healing,massage_therapy,health_and_medical,beauty_and_spa
+909a1ec9-416b-496f-979e-3bc1fcc6ac21,Moscone Tennis Courts 1 + 2,tennis_court,active_life,active_life
+b7e54ab1-c558-45ad-846e-e1cc94cf861c,Pacific Bay Trail,park,attractions_and_activities,attractions_and_activities
+8189f843-b3df-4caf-beb1-974c37354b86,Rra Construction,professional_services,professional_services,home_service
+5f7bf113-ac3f-4980-88d8-0b6fcf13b379,Angela Free Design,interior_design,home_service,professional_services
+e940c84e-1dae-47c8-b4d6-57d006e1b707,Presidio Wine Bunkers,storage_facility,professional_services,retail
+788171a4-f610-4928-be38-83aef3e0f58a,Radhaus,german_restaurant,eat_and_drink,eat_and_drink
+e6e30174-4d97-412b-b881-a7603736b01e,Park Trail,park,attractions_and_activities,attractions_and_activities
+0bbeb471-3b79-4135-a704-7dd53e973fc1,"Bostwick & Peterson, LLP",medical_law,professional_services,professional_services
+c74e8c91-e996-48e2-bac4-6f200bc24b3a,Startup Art Fair Sf,art_gallery,attractions_and_activities,arts_and_entertainment
+8e792db2-f7de-4e42-b764-d135ec5dd68d,Cozy Wallcoverings,corporate_office,private_establishments_and_corporates,business_to_business
+e1b7dfe7-08a9-4c3b-8f78-ea18e2a3d2ad,Western Union,money_transfer_services,financial_service,financial_service
+5003a116-f13a-47c1-8e99-db19af9696f8,Manic Mondays,dance_club,arts_and_entertainment,arts_and_entertainment
+67c1d4ad-c696-4ed8-afec-5f5a20553cf1,"Lee Bender, Compass Real Estate",real_estate,real_estate,real_estate
+6c2293cc-47ba-40af-a931-51feae435815,Marina Small Craft Harbor,marina,attractions_and_activities,attractions_and_activities
+7d5c9a08-c83c-4c20-9936-f1e85e4d4586,San Francisco SEO,internet_marketing_service,professional_services,business_to_business
+69bf2148-add6-4c58-92cf-665e1d0d4c2b,Kids Kingdom,home_service,home_service,education
+520caa52-159a-401b-a1ae-97a949328913,Hotel Del Sol,hotel,accommodation,accommodation
+9708746a-bad0-4f72-aef5-228ef0917d0a,Robert R. Callan Jr - McGuire Real Estate,real_estate_agent,real_estate,real_estate
+7e53083d-809e-4d2b-85ee-ec569edbbcee,The Long Now Foundation,community_services_non_profits,public_service_and_government,public_service_and_government
+53f99544-dc19-4527-b27a-84c6ba5e1d48,Driftwood Acupuncture & Wellness,acupuncture,health_and_medical,health_and_medical
+c43f9442-ef98-4787-8b3c-0f45f0360628,Coinme at Coinstar - Bitcoin Kiosk,kiosk,retail,retail
+f1629ca5-0b88-4ea2-8a85-cfab4ab1175a,Mi Morena,food_truck,retail,eat_and_drink

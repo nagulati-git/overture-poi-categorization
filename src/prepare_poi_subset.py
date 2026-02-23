@@ -170,6 +170,11 @@ def main():
         "overture_primary_category",
         "top_level_category",
         "confidence",
+        "basic_category",
+        "operating_status",
+        "names_json",
+        "addresses_json",
+        "brand_json",
     ]
     subset_cols = [c for c in subset_cols if c in sample.columns]
     subset = sample[subset_cols]
