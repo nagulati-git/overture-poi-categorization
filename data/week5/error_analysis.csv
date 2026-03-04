@@ -1,0 +1,25 @@
+Name,Primary Category,True Label,Predicted Label
+Golden Gate National Park,campground,accommodation,attractions_and_activities
+Golden Gate Bridge Vista Point South,landmark_and_historical_building,attractions_and_activities,structure_and_geography
+Kirby Cove Campground,campground,accommodation,attractions_and_activities
+United States Postal Service,shipping_center,professional_services,public_service_and_government
+Pet Food Express,pet_store,retail,pets
+Crissy Field Center,youth_organizations,public_service_and_government,education
+SF Fire Dept Presidio,fire_protection_service,home_service,public_service_and_government
+The City Waves,dance_school,active_life,education
+North Point Nail Spa,cosmetic_and_beauty_supplies,retail,beauty_and_spa
+Presidio Chapel,event_planning,professional_services,religious_organization
+Hopper's Hands,attractions_and_activities,attractions_and_activities,arts_and_entertainment
+"Marina Cleaners, Inc.",laundry_services,professional_services,home_service
+ZAP Zoetrope Aubry Productions,event_photography,professional_services,arts_and_entertainment
+Curry Up Now,food_truck,retail,eat_and_drink
+Presidio Parade Grounds,active_life,active_life,attractions_and_activities
+Little Epiphany Sound Healing,massage_therapy,health_and_medical,beauty_and_spa
+Moscone Tennis Courts 1 + 2,tennis_court,active_life,attractions_and_activities
+Rra Construction,professional_services,professional_services,home_service
+Angela Free Design,interior_design,home_service,professional_services
+Presidio Wine Bunkers,storage_facility,professional_services,structure_and_geography
+Cozy Wallcoverings,corporate_office,private_establishments_and_corporates,business_to_business
+San Francisco SEO,internet_marketing_service,professional_services,business_to_business
+Coinme at Coinstar - Bitcoin Kiosk,kiosk,retail,financial_service
+Mi Morena,food_truck,retail,eat_and_drink

@@ -1,0 +1,21 @@
+True Label,Predicted Label,Count
+accommodation,attractions_and_activities,2
+active_life,attractions_and_activities,2
+retail,eat_and_drink,2
+professional_services,home_service,2
+retail,financial_service,1
+retail,beauty_and_spa,1
+public_service_and_government,education,1
+professional_services,structure_and_geography,1
+professional_services,religious_organization,1
+professional_services,public_service_and_government,1
+professional_services,business_to_business,1
+professional_services,arts_and_entertainment,1
+private_establishments_and_corporates,business_to_business,1
+home_service,public_service_and_government,1
+home_service,professional_services,1
+health_and_medical,beauty_and_spa,1
+attractions_and_activities,structure_and_geography,1
+attractions_and_activities,arts_and_entertainment,1
+active_life,education,1
+retail,pets,1
